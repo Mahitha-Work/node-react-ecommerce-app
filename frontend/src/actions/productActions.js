@@ -26,7 +26,7 @@ const listProducts = (
   try {
     dispatch({ type: PRODUCT_LIST_REQUEST });
     const { data } = await axios.get(
-      'https://parenting-been-newsletter-standing.trycloudflare.com/api/products?category=' +
+      'https://well-admit-dispatched-employees.trycloudflare.com/api/products?category=' +
         category +
         '&searchKeyword=' +
         searchKeyword +
